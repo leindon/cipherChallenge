@@ -161,6 +161,6 @@ print(deciphered)
 
 # it outputs results in a list of the form [key length, likelihood]
 # the first list is using kasiski's examination and the second is using the index of coincidence.
-# oh yea forgot to mention index of coincidence the best key is the one with the closest IOC to 0.0686
 # once you get the key length there are ways of getting the key which I will code later.
 # also if you get the error division by zero why are you entering in a text shorter than 20 characters. (i will fix this eventually)
+# vigenereSolverLAlphabet.py is an updated version

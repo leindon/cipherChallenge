@@ -39,4 +39,5 @@ for i,j in enumerate(magicNumbers):
     IndexOfCoincidences.append(IndexOfCoincidence)
 print(IndexOfCoincidences)
 print(nGramProbabilites)
-# for this code you input the text and it uses the index of coincidence to predict whether it is a monogram cipher or not. I'll probably add detection for bigrams and higher but that takes a lot of frequency analysis so I'll do that later.
+# for this code you input the text and it uses the index of coincidence to predict whether it is a monogram cipher or not
+# currently only works for monograms and bigrams

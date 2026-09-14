@@ -25,5 +25,5 @@ for letter in ciphered:
     else:
         deciphered += letter
 print(deciphered)
-# this was mostly made for the vigenere cipher solver cause caeser ciphers r so easy
+# this was mostly made for the vigenere cipher solver
 # it uses the chi squared method to auto solve caeser ciphers.

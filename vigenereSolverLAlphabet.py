@@ -1,6 +1,5 @@
-# so heres my attempt at a better vigenere solver that works with an extended alphabet that i decided to make for no reason at all
-# i might redesign other solvers that i made cause my code was/is geniunely abysmal (why didnt i use dictionaries or functions or list slicing)
-# also lets be honest this code is also going to be abysmal once i finish learning how classes work
+# so heres my attempt at a better vigenere solver that works with an extended alphabet
+# i might redesign other solvers that i made cause my code was/is geniunely abysmal
 caseSensitive = True
 maxKeyLength = 30
 
@@ -71,7 +70,7 @@ def keywordIocer(ciphertext):
     return {k: v for k, v in sorted({length:sum([Iocer("".join([ciphertext[x] for x in range(i, len(ciphertext), length)])) for i in range(length)])/length for length in range(3,maxKeyLength+1)}.items(), key=lambda item: item[1], reverse = True)} # i love code golf
 
 def chiSquaredTest(comparison):
-    destinationFrequency = [] # yeah idk
+    destinationFrequency = [] # finish this
     
 
 print(factorise(patternDifferences(patternDetector(cipherText))))
